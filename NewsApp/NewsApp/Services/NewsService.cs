@@ -6,6 +6,8 @@ namespace NewsApp.Services
 {
 	public class NewsService: INewsService
 	{
+        // TODO Paused video at 36 minutes on June 15th 2023 because blob storage account was disabled.
+        // https://www.youtube.com/watch?v=SAhZCCQ052I
         private const string _dataUrl = "https://cgmobiledev8947.blob.core.windows.net/livecode/f1.json";
         private HttpClient _httpClient;
         public NewsService()
